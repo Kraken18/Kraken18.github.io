@@ -11,7 +11,7 @@ MrHop.HomeState = {
 	this.homeScreen.tileScale.y = 1;
 		
 	var style = {font: '100px Yanone Kaffeesatz, sans-serif', fill: '#fff'};
-	this.title = this.add.text(this.game.world.width/2 -300, this.game.height/2 - 150, 'RANDOM ECOUNTERS', style);
+	this.title = this.add.text(this.game.world.width/2 -300, this.game.height/2 - 150, 'RANDOM ENCOUNTERS', style);
 		
 	//var style = {font: '50px Arial', fill: '#fff'};
 	var style = {font: '40px Orbitron, sans-serif', fill: '#fff'};
