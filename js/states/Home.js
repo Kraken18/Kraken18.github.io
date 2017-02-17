@@ -15,7 +15,7 @@ MrHop.HomeState = {
 		
 	//var style = {font: '50px Arial', fill: '#fff'};
 	var style = {font: '40px Orbitron, sans-serif', fill: '#fff'};
-	this.startGame = this.add.text(this.game.width/2 - 175, this.game.height/2, 'Tap to Play Game', style);
+	this.startGame = this.add.text(this.game.width/2 - 175, this.game.height/2, 'Tap Here to Play Game', style);
 	this.startGame.anchor.setTo = (0.5);
 	this.startGame.angle = (2.5+Math.random()*5)*(Math.random()>0.5?1:-1);
     this.startGameTween = this.add.tween(this.startGame);
