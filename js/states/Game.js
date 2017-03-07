@@ -14,7 +14,7 @@ MrHop.GameState = {
     this.cactusPool = this.add.group();
     this.cactusPool.enableBody = true;
         
-    this.game.physics.arcade.gravity.y = 900;
+    this.game.physics.arcade.gravity.y = 800;
         
     this.maxJumpDistance = 150;
         
